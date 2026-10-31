@@ -13,3 +13,5 @@
 ---
 
 Thanks for stopping by!/Спасибо что зашли!
+
+### I’d like to start by apologizing for my broken English. If you spot any mistakes, please let me know.
