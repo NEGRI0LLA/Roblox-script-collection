@@ -1,19 +1,16 @@
 # ENG:
-### This folder contains Data script for player value
-
-Leaderstats script creating values for player
-
-DataScript creating values for player and save value system
+### This folder contains data scripts for player values. 
+* **Leaderstats** script creates currency values for the player.
+* **DataScript** creates player values and includes a data saving system.
 
 ### Installation:
-* Put one script on ServerScriptService
+* Put one of the scripts into the **ServerScriptService** folder.
+
 
 # RU:
-### Эта папка содержить скрипты про данные об валютах игрока
-
-Leaderstats скрипт создает валюту для игрока
-
-DataScript создает валюту для игрока и последующие ее сохранение
+### Эта папка содержит скрипты для работы с данными и валютой игрока.
+* Скрипт **Leaderstats** создает базовые параметры (валюту) для игрока.
+* Скрипт **DataScript** отвечает за создание параметров игрока и систему их последующего сохранения.
 
 ### Установка:
-* Положите один из скриптов в ServerScriptService
+* Положите один из скриптов в папку **ServerScriptService**.
