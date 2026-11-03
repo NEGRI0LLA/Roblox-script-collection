@@ -5,6 +5,8 @@
 -- !!! Create Remote Event under this script
 -- This script you can put on ServerScriptStorage
 
+x = 1 -- You can set any value what you want. this value determines how much the player will receive
+
 game.Players.PlayerAdded:Connect(function(plr) -- When player added, function will be started
 
 	local screenGui = Instance.new("ScreenGui") -- Creating ScreenGui
@@ -21,5 +23,5 @@ game.Players.PlayerAdded:Connect(function(plr) -- When player added, function wi
 end)
 
 script.RemoteEvent.OnServerEvent:Connect(function(plr) -- Function witch activated when RemoteEvent is fire
-	plr.leaderstats.Money.Value += 1 -- give + 1 money every click
+	plr.leaderstats.Money.Value += x -- give + x money every click
 end)
