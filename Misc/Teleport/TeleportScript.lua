@@ -4,7 +4,7 @@
 
 local isTeleported = false -- Create cooldown variable
 
-firstPart = Instance.new("Part") -- Create first part
+local firstPart = Instance.new("Part") -- Create first part
 firstPart.Name = "First" -- Set name
 firstPart.Parent = game.Workspace -- Set main folder
 firstPart.Position = Vector3.new(17.7, 0.5, 6.2) -- Set positinon(you can set any)
@@ -12,7 +12,7 @@ firstPart.Anchored = true -- Set anchored
 firstPart.Size = Vector3.new(5, 1, 5) -- Set size(you can set any)
 firstPart.BrickColor = BrickColor.Blue() -- Set color(you can set any)
 
-secondPart = Instance.new("Part") -- Create second part
+local secondPart = Instance.new("Part") -- Create second part
 secondPart.Name = "Second" -- Set name
 secondPart.Parent = game.Workspace -- Set main folder
 secondPart.Position = Vector3.new(-2.1, 0.5, 7.3) -- Set positinon(you can set any)
