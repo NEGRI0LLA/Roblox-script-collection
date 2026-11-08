@@ -1,5 +1,5 @@
 -- NEGRI0LLA
--- This script creating two part witch can teleport player
+-- This script creating two part which can teleport player
 -- !!! Put this script on ServerScriptService folder
 
 local isTeleported = false -- Create cooldown variable
