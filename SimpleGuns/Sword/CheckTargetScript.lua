@@ -2,7 +2,7 @@
 -- This project causes the sword to attack.
 -- This script check player target when sword is activated.
 -- !!! For check this script needed Bot, or something any, for example player.
--- !!!!! For this project work, need tool on starterPack, Part witch name Handle in tool, remoteEvent in here and two scripts incliding this one !!!!!
+-- !!!!! For this project work, need tool on starterPack, Part which name Handle in tool, remoteEvent in here and two scripts incliding this one !!!!!
 -- !!!!! IT IS A LOCAL SCRIPT !!!!!
 
 script.Parent.Activated:Connect(function() -- Started function when Tool is activated
