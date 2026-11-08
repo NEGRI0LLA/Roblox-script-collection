@@ -5,12 +5,12 @@
 
 x = 1 -- Set count of add to money
 
-game.Players.PlayerAdded:Connect(function(plr) -- Creating function witch started when player join the game
+game.Players.PlayerAdded:Connect(function(plr) -- Creating function which started when player join the game
 	local part = Instance.new("Part") -- Creating Part
 	part.Parent = game.Workspace -- Set part root folder
 	
 	local character = plr.CharacterAdded:Wait() -- Find player.character
-	local posPlayer = character:WaitForChild("HumanoidRootPart") -- Find part of player witch can find player position
+	local posPlayer = character:WaitForChild("HumanoidRootPart") -- Find part of player which can find player position
 	
 	part.Position = posPlayer.Position + Vector3.new(0, 0, 6) -- Set part position near player
 	task.wait(1)
