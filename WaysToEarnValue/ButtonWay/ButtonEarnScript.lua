@@ -1,6 +1,6 @@
 -- NEGRI0LLA
 
--- !!! For this script needed leaderstats or DataScript witch you can find in this repository in PlayerData folder
+-- !!! For this script needed leaderstats or DataScript which you can find in this repository in PlayerData folder
 -- !!! The local script must be placed under this script—that is, this script acts as the parent of the local script.
 -- !!! Create Remote Event under this script
 -- This script you can put on ServerScriptStorage
@@ -22,6 +22,6 @@ game.Players.PlayerAdded:Connect(function(plr) -- When player added, function wi
 	script.Parent = button -- Set parent of this script(to button)
 end)
 
-script.RemoteEvent.OnServerEvent:Connect(function(plr) -- Function witch activated when RemoteEvent is fire
+script.RemoteEvent.OnServerEvent:Connect(function(plr) -- Function which activated when RemoteEvent is fire
 	plr.leaderstats.Money.Value += x -- give + x money every click
 end)
