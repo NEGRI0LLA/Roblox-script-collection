@@ -1,6 +1,6 @@
 # ENG:
 
-### This script make a label witch color change smoothly every 2 seconds at random
+### This script make a label which color change smoothly every 2 seconds at random
 
 ### Installation:
 * Put this script on ServerScriptService folder
