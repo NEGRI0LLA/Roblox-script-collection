@@ -12,9 +12,9 @@
 * Put in **ServerScriptService** **Leaderstats** or **DataScript**(You can find them in this repository on PlayerData folder).
 
 ### Example hierarchy:
-![Hierarchy of parts](LoaderJobWay/PartsHierarchy.PNG)
+![Hierarchy of parts](PartsHierarchy.PNG)
 
-![Hierarchy of box](LoaderJobWay/BoxHierarchy.PNG)
+![Hierarchy of box](BoxHierarchy.PNG)
 
 # RU:
 ### Этот проект создает новый метод заработка валюты, а именно работы грузчиком.
@@ -29,6 +29,6 @@
 * В **ServerScriptService** добавьте **Leaderstats** или **DataScript** (их можно найти в этом репозитории, в папке PlayerData).
 
 ### Пример иерархии:
-![Hierarchy of parts](LoaderJobWay/PartsHierarchy.PNG)
+![Hierarchy of parts](PartsHierarchy.PNG)
 
-![Hierarchy of box](LoaderJobWay/BoxHierarchy.PNG)
+![Hierarchy of box](BoxHierarchy.PNG)
