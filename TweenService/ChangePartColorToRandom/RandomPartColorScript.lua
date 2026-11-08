@@ -9,7 +9,7 @@ part.Parent = game.Workspace -- Set part main folder
 part.Position = Vector3.new(8.8, 0.5, -5) -- Set position of part(you can set any)
 part.Anchored = true -- Set anchored
 
-local tweenInfo = TweenInfo.new(2) -- Creating TweenInfo witch continues 2 second
+local tweenInfo = TweenInfo.new(2) -- Creating TweenInfo which continues 2 second
 
 while true do -- Creating infinity cycle
 	local goal = {} -- Creating Tween goal
