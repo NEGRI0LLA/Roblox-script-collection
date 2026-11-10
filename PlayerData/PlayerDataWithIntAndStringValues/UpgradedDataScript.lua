@@ -1,5 +1,6 @@
 -- NEGRI0LLA
 -- This is updated DataScript which have two varibales. First is a Money and Second is a Rank of player
+-- !!! Put this in ServerScriptService folder
 
 local DataStoreService = game:GetService("DataStoreService") -- Get service
 local PlayerDataStore = DataStoreService:GetDataStore("PlayerDataStore") -- Create DataStore
