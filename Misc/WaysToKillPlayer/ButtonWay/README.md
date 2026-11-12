@@ -9,10 +9,8 @@
 * Put the **LocalScript** (named **ClickScript**) inside the main **Script**.
 * Put a **RemoteEvent** into the **ReplicatedStorage** folder.
 
-### Example hierarchy:
+### File location:
 ![Hierarchy](hierarchy.PNG)
-
----
 
 # RU:
 ### Этот проект создает кнопку на экране игрока. При нажатии на неё персонаж умирает. Интерфейс (GUI) не пропадает после смерти.
@@ -25,5 +23,5 @@
 * Положите **LocalScript** (с именем **ClickScript**) внутрь основного **Script**.
 * Положите объект **RemoteEvent** в папку **ReplicatedStorage**.
 
-### Пример иерархии:
+### Расположение файлов:
 ![Иерархия](hierarchy.PNG)
